@@ -1,7 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.3.5)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     atomic (1.1.15)
     buftok (0.2.0)
     celluloid (0.15.2)
@@ -54,6 +55,7 @@ GEM
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
+    public_suffix (3.1.1)
     rack (1.5.2)
     rack-protection (1.5.2)
       rack
